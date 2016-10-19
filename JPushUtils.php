@@ -11,8 +11,8 @@
 
 class JPushUtils
 {
-    private $APP_KEY = '579fa98a3060067e289606d2';
-    private $MASTER_SECRET = '88730b7ad4f54a03c6b7cdc3';
+    private $APP_KEY = '';
+    private $MASTER_SECRET = '';
     const ALLOW_DATA = array('all', 'ios', 'android');
 
     private $client;
